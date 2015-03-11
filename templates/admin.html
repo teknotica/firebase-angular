@@ -1,0 +1,18 @@
+<div class="container">   
+
+    <h1>Messages - Admin</h1>     
+    <ul>
+        <li ng-repeat="m in messages">
+            <span>{{m.text}}</span>
+            <input type="text" ng-model="m.text" />
+            <button ng-click="messages.$save(m)">Edit</button>
+            <a ng-click="messages.$remove(m)">[x]</a>
+        </li>
+    </ul>
+
+    <form ng-submit="addMessage()">
+        <input type="text" ng-model="newMessage" />
+        <button type="submit">Add Message</button>
+    </form>
+
+</div>

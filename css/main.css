@@ -1,0 +1,40 @@
+/* line 2, ../sass/main.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/main.scss */
+body {
+  background-color: #34495e;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 13, ../sass/main.scss */
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #fff;
+}
+
+/* line 18, ../sass/main.scss */
+.container {
+  padding: 30px;
+}
+
+/* line 22, ../sass/main.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 27, ../sass/main.scss */
+ul li {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+/* line 31, ../sass/main.scss */
+ul li span {
+  min-width: 200px;
+  display: inline-block;
+}
