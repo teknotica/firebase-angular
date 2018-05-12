@@ -24,8 +24,7 @@ angular.module('firebaseApp', ['ngRoute', 'firebase'])
 	.factory('firebaseService', function(API) {
 
 		function getFirebaseRef() {
-			var ref = new Firebase(API.firebaseUrl + 'messages');
-			return ref;
+			return new Firebase(API.firebaseUrl + 'messages');
 		}
 
 		return {
